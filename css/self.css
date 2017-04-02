@@ -182,14 +182,18 @@ footer ul li{
 .bigsmall:hover{
 	animation: bigsmall ease-in .5s 3;
 }
-.in30{
+.ih30{
 	line-height: 30px;
+}
+.ih20{
+	line-height: 20px;
 }
 .title{
 	border-left: 4px solid rgb(154, 158, 209);
 	padding: 0px 20px;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 600;
+	margin: 20px 0px;
 }
 .lefsan > div{
 	padding-left: 12px;
@@ -206,6 +210,12 @@ footer ul li{
     height: 0px;
     border: 6px solid transparent;
     border-left: 6px solid rgb(255, 117, 0);
+}
+.proobj p{
+	text-indent: 24px;
+	text-align: left;
+	height: 36px;
+	overflow:hidden;
 }
 @keyframes bigsmall{
 	0%{
