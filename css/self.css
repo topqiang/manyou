@@ -82,6 +82,9 @@ header{
 .fl{
 	float: left;
 }
+.pad10{
+	padding: 10px 0px;
+}
 .down{
 	width: 20px;
 	bottom: 10px;
@@ -169,4 +172,54 @@ footer{
 footer ul li{
 	float: left;
 	padding: 0px 20px;
+}
+.updown{
+	animation: updown ease 1s infinite alternate;
+}
+.bigsmall{
+	cursor: pointer;
+}
+.bigsmall:hover{
+	animation: bigsmall ease-in .5s 3;
+}
+.in30{
+	line-height: 30px;
+}
+.title{
+	border-left: 4px solid rgb(154, 158, 209);
+	padding: 0px 20px;
+	font-size: 18px;
+	font-weight: 600;
+}
+.lefsan > div{
+	padding-left: 12px;
+    position: relative;
+    line-height: 30px;
+}
+.lefsan > div:before{
+	position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    border: 6px solid transparent;
+    border-left: 6px solid rgb(255, 117, 0);
+}
+@keyframes bigsmall{
+	0%{
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(0.8);
+	}
+}
+@keyframes updown{
+	0%{
+		transform: translate3d(0,-10px,0px);
+	}
+	100%{
+		transform: translate3d(0,10px,0px);
+	}
 }
