@@ -46,7 +46,7 @@ header{
 .icon{
 	background-repeat: no-repeat;
 	background-position: 0px center;
-	background-size: auto 20px;
+	background-size: 25px auto;
 }
 .iconindex{
 	background-image: url(../img/iconindex.png);
